@@ -1,3 +1,79 @@
-.footer {
-    background-color: black;
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+.aBlack {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 150px 15px 120px;
+  align-items: center;
+}
+
+.logoHaut {
+  padding: 5px 25px;
+  height: 30px;
+  width: auto;
+}
+
+/*bouton*/
+
+.buttonTry {
+  padding: 15px 50px;
+  width: fit-content;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 10px lightgrey;
+  border-radius: 25px;
+}
+
+.textBoutonHaut {
+  margin: 0;
+}
+
+/*Style home-page*/
+.container {
+  background-image: url(../media/bg_hero_desktop.svg);
+  margin: -130px 0 0 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 55px;
+  background-color: hsl(193, 100%, 96%);
+  height: 80vh;
+}
+
+.presentation {
+  margin: 200px 0 0px;
+  width: 500px;
+
+  font-size: 18px;
+}
+.get {
+  padding: 5px 40px;
+  width: fit-content;
+  font-size: 13px;
+  font-weight: 600;
+  background-color: RGB(254, 82, 192);
+  border-radius: 25px;
+  color: white;
+}
+
+.aWhite {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.imgGH {
+  margin: 200px 0 0px;
+  height: 500px;
+  width: auto;
 }
