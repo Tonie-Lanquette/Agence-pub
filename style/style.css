@@ -2,21 +2,26 @@
   body {
     margin: 0;
     font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+
   }
+
+
   h1 {
     font-family: "Poppins", sans-serif;
   }
 
+  /* HEADER */
   .header {
     display: flex;
     justify-content: space-between;
-    padding: 15px 10% 15px 10%;
+    padding: 15px 5% 15px 5%;
     align-items: center;
     flex-wrap: wrap;
   }
 
   .logoHaut {
-    padding: 5px 25px;
+    padding: 5px 0px;
     height: 30px;
     width: auto;
   }
@@ -30,7 +35,6 @@
   .buttonTry {
     padding: 15px 50px;
     width: fit-content;
-    font-size: 18px;
     font-weight: 600;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 5px 10px lightgrey;
@@ -42,14 +46,14 @@
     margin: 0;
   }
 
-  /*Style home-page*/
+  /*HOME PAGE*/
   .container {
     background-image: url(../media/bg_hero_desktop.svg);
     margin: -130px 0 0 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
-    padding: 5px 10%;
+    padding: 5px 5%;
     background-color: hsl(193, 100%, 96%);
     height: 80vh;
   }
@@ -57,8 +61,6 @@
   .presentation {
     margin: 200px 0 0px;
     width: 550px;
-
-    font-size: 18px;
   }
 
   /*boutton*/
@@ -83,15 +85,33 @@
   }
 
   .imgGH {
-    margin: 200px 0 0px;
+    margin: 200px 0px;
     height: 400px;
     width: auto;
   }
 
-  body {
-    margin: 0 0;
-    font-size: 18px;
+
+  /* CONTAINER x3 */
+
+  .blocks {
+    padding: 30px 5%;
   }
+
+  .un {
+    background-color: gray;
+    display: flex;
+    border-radius: 30px;
+    height: 400px;
+  }
+
+
+
+
+
+
+
+  /* FOOTER */
+
 
   .footer {
     background-color: RGB(0, 37, 46);
@@ -110,9 +130,6 @@
     width: 80%;
     padding: 20px 5% 20px 5%;
     justify-content: space-between;
-  }
-
-  .contact {
   }
 
   .contactBlock {
