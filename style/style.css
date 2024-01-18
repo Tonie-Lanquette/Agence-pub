@@ -1,81 +1,84 @@
-body {
-    margin: 0 0;
-    font-size: 18px;
-}
+@media only screen and (max-width: 1440px) {
 
-.footer {
-    background-color: RGB(0, 37, 46);
-    font-size: 13px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    color: #ffff;
-}
+    body {
+        margin: 0 0;
+        font-size: 18px;
+    }
 
-.logoFooter {
-    margin: 150px 5% 20px 5%;
-}
+    .footer {
+        background-color: RGB(0, 37, 46);
+        font-size: 13px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        color: #ffff;
+    }
 
-.informations {
-    display: flex;
-    width: 80%;
-    padding: 20px 5% 20px 5%;
-    justify-content: space-between;
-}
+    .logoFooter {
+        margin: 150px 5% 20px 5%;
+    }
 
-.contact {}
+    .informations {
+        display: flex;
+        width: 80%;
+        padding: 20px 5% 20px 5%;
+        justify-content: space-between;
+    }
 
-.contactBlock {
-    display: flex;
-    align-items: start;
-}
+    .contact {}
 
-.icone {
-    width: auto;
-    height: 12px;
-    padding-right: 3%;
-    padding-top: 16px;
-}
+    .contactBlock {
+        display: flex;
+        align-items: start;
+    }
 
-ul {
-    list-style: none;
-}
+    .icone {
+        width: auto;
+        height: 12px;
+        padding-right: 3%;
+        padding-top: 16px;
+    }
 
-.liens {
-    display: flex;
+    ul {
+        list-style: none;
+    }
 
-}
+    .liens {
+        display: flex;
 
-li {
-    padding-bottom: 25px;
-}
+    }
 
-.styleLinkFooter {
-    text-decoration: none;
-    color: white;
-}
+    li {
+        padding-bottom: 25px;
+    }
 
-.styleLinkFooter:hover {
-    text-decoration: underline;
-}
+    .styleLinkFooter {
+        text-decoration: none;
+        color: white;
+    }
 
-
-
-.socialMediasIcons {
-    border: 1px solid white;
-    border-radius: 100%;
-    width: fit-content;
-    padding: 8px;
-    margin: 5px;
-}
-
-.socialMediasIcons:hover {
-    border-color: RGB(254, 82, 192);
-}
+    .styleLinkFooter:hover {
+        text-decoration: underline;
+    }
 
 
-.copyright {
-    font-size: 10px;
-    text-align: end;
-    padding-bottom: 50px;
-    padding-right: 5%;
+
+    .socialMediasIcons {
+        border: 1px solid white;
+        border-radius: 100%;
+        width: fit-content;
+        padding: 8px;
+        margin: 5px;
+    }
+
+    .socialMediasIcons:hover {
+        border-color: RGB(254, 82, 192);
+    }
+
+
+    .copyright {
+        font-size: 10px;
+        text-align: end;
+        padding-bottom: 50px;
+        padding-right: 5%;
+    }
 }
