@@ -6,15 +6,12 @@ h1 {
   font-family: "Poppins", sans-serif;
 }
 
-.aBlack {
-  text-decoration: none;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 15px 150px 15px 120px;
+  padding: 15px 10% 15px 10%;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .logoHaut {
@@ -24,6 +21,10 @@ h1 {
 }
 
 /*bouton*/
+
+.aBlack {
+  text-decoration: none;
+}
 
 .buttonTry {
   padding: 15px 50px;
@@ -46,19 +47,22 @@ h1 {
   margin: -130px 0 0 0;
   display: flex;
   justify-content: space-around;
-  padding: 5px 55px;
+  flex-wrap: wrap;
+  padding: 5px 10%;
   background-color: hsl(193, 100%, 96%);
   height: 80vh;
 }
 
 .presentation {
   margin: 200px 0 0px;
-  width: 500px;
+  width: 550px;
 
   font-size: 18px;
 }
+
+/*boutton*/
 .get {
-  padding: 5px 40px;
+  padding: 15px 55px;
   width: fit-content;
   font-size: 13px;
   font-weight: 600;
@@ -67,13 +71,18 @@ h1 {
   color: white;
 }
 
+.get:hover {
+  background-color: RGB(255, 155, 219);
+}
+
 .aWhite {
+  margin: 10px;
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
 
 .imgGH {
   margin: 200px 0 0px;
-  height: 500px;
+  height: 400px;
   width: auto;
 }
