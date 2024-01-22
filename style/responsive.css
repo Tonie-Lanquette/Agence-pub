@@ -14,24 +14,105 @@
     color: black !important;
   }
 
-  header {
-    width: 50px;
+  h1 {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    text-align: center;
+    line-height: 35px;
   }
 
+  /* HEADER */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5% 15px 5%;
+    align-items: center;
+  }
+
+  .logoHaut {
+    padding: 5px 0px;
+    height: 15px;
+    width: auto;
+  }
+
+  /*bouton */
+
+  .aBlack {
+    text-decoration: none;
+  }
+
+  .buttonTry {
+    font-size: 10px;
+    padding: 7px 30px;
+    width: fit-content;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 10px lightgrey;
+    border-radius: 25px;
+    color: black;
+  }
+
+  .textBoutonHaut {
+    margin: 0;
+  }
+
+  /*HOME PAGE*/
   .container {
-    width: 50px
+    background-image: url(../media/bg_hero_mobile.svg);
+    margin: -130px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10%;
+    background-color: hsl(193, 100%, 96%);
+    height: 800px;
+  }
+
+  .presentation {
+    margin-top: 180px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 400;
+  }
+
+  .pres {
+    margin: 16px 0 8px 0;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  /*boutton*/
+  .get {
+    padding: 8px 55px;
+    width: fit-content;
+    font-size: 12px;
+    /* font-weight: 600; */
+    background-color: RGB(254, 82, 192);
+    border-radius: 25px;
+    color: white;
+    margin: 0 8%;
+  }
+
+  .get:hover {
+    background-color: RGB(255, 155, 219);
+  }
+
+  .aWhite {
+    margin: 20px 40%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
   }
 
   .imgGH {
-    margin: 200px 0px;
-    height: 50px;
+    height: 190px;
     width: auto;
+    margin-top: 17px;
+
   }
 
   /* CONTAINER x3 */
 
   .blocks {
-    padding: 100px 5%;
+    padding: 0px 5% 100px 5%;
 
   }
 
@@ -194,106 +275,8 @@
     font-size: 10px;
     text-align: center;
     padding-bottom: 50px;
-
-=======
     font-size: 12px;
     /* width: 100%; */
-  }
-
-  h1 {
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-    text-align: center;
-    line-height: 35px;
-  }
-
-  /* HEADER */
-  .header {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 5% 15px 5%;
-    align-items: center;
-  }
-
-  .logoHaut {
-    padding: 5px 0px;
-    height: 15px;
-    width: auto;
-  }
-
-  /*bouton */
-
-  .aBlack {
-    text-decoration: none;
-  }
-
-  .buttonTry {
-    font-size: 10px;
-    padding: 7px 30px;
-    width: fit-content;
-    font-weight: 600;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 5px 10px lightgrey;
-    border-radius: 25px;
-    color: black;
-  }
-
-  .textBoutonHaut {
-    margin: 0;
-  }
-
-  /*HOME PAGE*/
-  .container {
-    background-image: url(../media/bg_hero_mobile.svg);
-    margin: -130px 0 0 0;
-    display: flex;
-    flex-direction: column;
-
-    padding: 5px 10%;
-    background-color: hsl(193, 100%, 96%);
-    height: 700px;
-  }
-
-  .presentation {
-    margin-top: 180px;
-    text-align: center;
-    line-height: 20px;
-    font-weight: 400;
-  }
-
-  .pres {
-    margin: 16px 0 8px 0;
-    font-size: 16px;
-    line-height: 25px;
-  }
-
-  /*boutton*/
-  .get {
-    padding: 8px 55px;
-    width: fit-content;
-    font-size: 12px;
-    /* font-weight: 600; */
-    background-color: RGB(254, 82, 192);
-    border-radius: 25px;
-    color: white;
-    margin: 0 8%;
-  }
-
-  .get:hover {
-    background-color: RGB(255, 155, 219);
-  }
-
-  .aWhite {
-    margin: 20px 40%;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-  }
-
-  .imgGH {
-    height: 190px;
-    width: auto;
-    margin-top: 17px;
-
   }
 
 }
