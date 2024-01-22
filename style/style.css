@@ -5,8 +5,8 @@
     font-size: 18px;
     font-weight: 400;
 
-  }
 
+  }
 
   h1 {
     font-family: "Poppins", sans-serif;
@@ -97,7 +97,6 @@
     width: auto;
   }
 
-
   /* CONTAINER x3 */
 
   .blocks {
@@ -173,8 +172,8 @@
 
 
 
-  /* FOOTER */
 
+  /* FOOTER */
 
   .footer {
     background-color: RGB(0, 37, 46);
@@ -247,3 +246,4 @@
     padding-bottom: 50px;
     padding-right: 5%;
   }
+}
