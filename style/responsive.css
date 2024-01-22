@@ -1,11 +1,10 @@
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 768px) {
   body {
     margin: 0;
     font-family: "Open Sans", sans-serif;
 
     font-size: 18px;
     font-weight: 400;
-
   }
 
   h2 {
@@ -103,17 +102,16 @@
   }
 
   .imgGH {
-    height: 190px;
-    width: auto;
+    margin: 0 10%;
+    height: auto;
+    width: 80%;
     margin-top: 17px;
-
   }
 
   /* CONTAINER x3 */
 
   .blocks {
     padding: 0px 5% 100px 5%;
-
   }
 
   .rectangle {
@@ -178,7 +176,6 @@
   }
 
   .bouttonBas {
-
     padding: 8px 55px;
     width: fit-content;
     font-weight: 400;
@@ -192,12 +189,9 @@
     background-color: RGB(255, 155, 219);
   }
 
-
-
   /* FOOTER */
 
   .footer {
-
     background-color: RGB(0, 37, 46);
     font-size: 13px;
     font-family: "Open Sans", sans-serif;
@@ -235,7 +229,6 @@
     padding: 0;
     margin: 0;
   }
-
 
   .liens {
     display: flex;
@@ -278,5 +271,4 @@
     font-size: 12px;
     /* width: 100%; */
   }
-
 }
