@@ -3,10 +3,19 @@
     margin: 0;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
+    font-weight: 400;
+
+
   }
 
   h1 {
     font-family: "Poppins", sans-serif;
+    font-weight: 600;
+  }
+
+  h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
   }
 
   /* HEADER */
@@ -91,15 +100,78 @@
   /* CONTAINER x3 */
 
   .blocks {
-    padding: 30px 5%;
+    padding: 200px 5%;
+
   }
 
-  .un {
-    background-color: gray;
+  .rectangle {
+    background-color: white;
     display: flex;
     border-radius: 30px;
     height: 400px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0%;
+    padding: 0 8%;
+    box-shadow: 0px 10px 15px rgba(0, 37, 46, 0.5);
   }
+
+  .rectangleReverse {
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 30px;
+    height: 400px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0%;
+    padding: 0 8%;
+    box-shadow: 0px 10px 15px rgba(0, 37, 46, 0.5);
+  }
+
+  .imgRect {
+    height: 350px;
+    width: auto;
+  }
+
+  .text {
+    width: 35%;
+  }
+
+  .cadreBas {
+    position: relative;
+    z-index: 2;
+    background-color: white;
+    border-radius: 30px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 25%;
+    padding: 20px 5%;
+    box-shadow: 0px 10px 15px rgb(0, 37, 46);
+  }
+
+  .bouttonBas {
+
+    padding: 15px 55px;
+    width: fit-content;
+    font-weight: 600;
+    background-color: RGB(254, 82, 192);
+    border-radius: 45px;
+    color: white;
+  }
+
+  .bouttonBas:hover {
+    background-color: RGB(255, 155, 219);
+  }
+
+
+
+
+
+
 
   /* FOOTER */
 
@@ -109,6 +181,7 @@
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     color: #ffff;
+    margin: -150px 0px;
   }
 
   .logoFooter {
