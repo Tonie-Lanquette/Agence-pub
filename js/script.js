@@ -1,9 +1,14 @@
-alert("Nous venons de faire du JS :)))");
+//alert("Nous venons de faire du JS :)))");
 
-let darkTrigger = document.getElementById(darkTrigger);
+let jn = document.querySelector(".jn");
+let jour = document.getElementById("jour");
+let nuit = document.getElementById("nuit");
 
-darkTrigger = addEventListener("click", changement);
+jour.addEventListener("click", displayJour);
 
-function changement() {}
+function displayJour() {
+  jn.classList.toggle("block");
+  jour.classList.toggle("none");
 
-changement();
+  nuit.classList.toggle("block");
+}
