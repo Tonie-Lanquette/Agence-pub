@@ -1,7 +1,3 @@
-// function changeTheme() {
-//   let darkMode = document.getElementsByClassName("lightMode");
-//   darkMode.classList.toggle("darkMode");
-// }
 
 function changeTheme() {
   let darkMode = document.querySelectorAll(".lightMode");

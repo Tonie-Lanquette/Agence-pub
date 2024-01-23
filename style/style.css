@@ -32,6 +32,24 @@
     width: auto;
   }
 
+  .bJn {
+    cursor: pointer;
+    height: 30px;
+    width: auto;
+  }
+
+  .changeTheme {
+    font-size: 10px;
+
+    width: fit-content;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 10px lightgrey;
+    border-radius: 25px;
+    color: black;
+    border: none;
+    margin: 0 5%;
+  }
   /*bouton*/
 
   .aBlack {
@@ -101,7 +119,6 @@
 
   .blocks {
     padding: 200px 5%;
-
   }
 
   .rectangle {
@@ -151,7 +168,6 @@
   }
 
   .bouttonBas {
-
     padding: 15px 55px;
     width: fit-content;
     font-weight: 600;
@@ -163,12 +179,6 @@
   .bouttonBas:hover {
     background-color: RGB(255, 155, 219);
   }
-
-
-
-
-
-
 
   /* FOOTER */
 
@@ -244,6 +254,7 @@
     padding-right: 5%;
   }
 
+
   /* Classes changement de theme */
 
   .lightMode {
@@ -276,3 +287,4 @@
     background-color: hsl(192, 80%, 16%);
   }
 }
+
