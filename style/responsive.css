@@ -11,7 +11,6 @@
   h2 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    color: black !important;
   }
 
   h1 {
@@ -117,6 +116,7 @@
   }
 
   .rectangle {
+    text-align: center;
     width: 90%;
     background-color: white;
     display: flex;
@@ -131,6 +131,7 @@
   }
 
   .rectangleReverse {
+    text-align: center;
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -156,7 +157,7 @@
   }
 
   .text {
-    text-align: center;
+
     color: gray;
     font-size: 15px;
   }
@@ -279,4 +280,42 @@
     /* width: 100%; */
   }
 
+  /* Classes changement de theme */
+
+  .lightMode {
+    background-color: white;
+    color: black;
+  }
+
+  .darkMode {
+    background-color: rgb(41, 41, 41);
+    color: rgb(255, 255, 255);
+    box-shadow: none;
+  }
+
+  .lightModeBody {
+    background-color: white;
+    color: black;
+  }
+
+  .darkModeBody {
+    background-color: rgb(22, 22, 22);
+
+  }
+
+  .lightModeContainer {
+    background-color: hsl(193, 100%, 96%);
+  }
+
+  .darkModeContainer {
+    background-color: hsl(192, 80%, 16%);
+  }
+
+  .lightModeH2 {
+    color: black;
+  }
+
+  .darkModeH2 {
+    color: rgb(255, 255, 255);
+  }
 }

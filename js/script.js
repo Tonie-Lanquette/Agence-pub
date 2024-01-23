@@ -1,15 +1,26 @@
-alert("Nous venons de faire du JS :)))");
+// function changeTheme() {
+//   let darkMode = document.getElementsByClassName("lightMode");
+//   darkMode.classList.toggle("darkMode");
+// }
 
-let darkTrigger = document.getElementById(darkTrigger);
+function changeTheme() {
+  let darkMode = document.querySelectorAll(".lightMode");
+  darkMode.forEach((element) => {
+    element.classList.toggle("darkMode");
+  });
 
-darkTrigger = addEventListener("click", changement);
+  let darkModeBody = document.querySelectorAll(".lightModeBody");
+  darkModeBody.forEach((element) => {
+    element.classList.toggle("darkModeBody");
+  });
 
-function changement() {
-  if ($("body").hasClass("dark")) {
-    $("body").removeClass("dark");
-  } else {
-    $("body").addClass("dark");
-  }
+  let darkModeContainer = document.querySelectorAll(".lightModeContainer");
+  darkModeContainer.forEach((element) => {
+    element.classList.toggle("darkModeContainer");
+  });
+
+  let darkModeH2 = document.querySelectorAll(".lightModeH2");
+  darkModeH2.forEach((element) => {
+    element.classList.toggle("darkModeH2");
+  });
 }
-
-changement();
