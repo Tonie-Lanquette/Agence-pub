@@ -1,14 +1,22 @@
-//alert("Nous venons de faire du JS :)))");
 
-let jn = document.querySelector(".jn");
-let jour = document.getElementById("jour");
-let nuit = document.getElementById("nuit");
+function changeTheme() {
+  let darkMode = document.querySelectorAll(".lightMode");
+  darkMode.forEach((element) => {
+    element.classList.toggle("darkMode");
+  });
 
-jour.addEventListener("click", displayJour);
+  let darkModeBody = document.querySelectorAll(".lightModeBody");
+  darkModeBody.forEach((element) => {
+    element.classList.toggle("darkModeBody");
+  });
 
-function displayJour() {
-  jn.classList.toggle("block");
-  jour.classList.toggle("none");
+  let darkModeContainer = document.querySelectorAll(".lightModeContainer");
+  darkModeContainer.forEach((element) => {
+    element.classList.toggle("darkModeContainer");
+  });
 
-  nuit.classList.toggle("block");
+  let darkModeH2 = document.querySelectorAll(".lightModeH2");
+  darkModeH2.forEach((element) => {
+    element.classList.toggle("darkModeH2");
+  });
 }

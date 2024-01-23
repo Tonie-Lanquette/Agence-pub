@@ -6,6 +6,7 @@
     font-weight: 400;
   }
 
+
   h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -59,11 +60,11 @@
     padding: 15px 50px;
     width: fit-content;
     font-weight: 600;
-    background-color: rgb(255, 255, 255);
     box-shadow: 0px 5px 10px lightgrey;
     border-radius: 25px;
-    color: black;
+
   }
+
 
   .textBoutonHaut {
     margin: 0;
@@ -72,13 +73,14 @@
   /*HOME PAGE*/
   .container {
     background-image: url(../media/bg_hero_desktop.svg);
+    background-size: cover;
     margin: -130px 0 0 0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 5px 5%;
-    background-color: hsl(193, 100%, 96%);
-    height: 80vh;
+    height: 100vh;
+
   }
 
   .presentation {
@@ -120,7 +122,6 @@
   }
 
   .rectangle {
-    background-color: white;
     display: flex;
     border-radius: 30px;
     height: 400px;
@@ -132,7 +133,6 @@
   }
 
   .rectangleReverse {
-    background-color: white;
     display: flex;
     flex-direction: row-reverse;
     border-radius: 30px;
@@ -156,7 +156,6 @@
   .cadreBas {
     position: relative;
     z-index: 2;
-    background-color: white;
     border-radius: 30px;
     height: 300px;
     display: flex;
@@ -254,4 +253,38 @@
     padding-bottom: 50px;
     padding-right: 5%;
   }
+
+
+  /* Classes changement de theme */
+
+  .lightMode {
+    background-color: white;
+    color: black;
+  }
+
+  .darkMode {
+    background-color: rgb(41, 41, 41);
+    color: rgb(255, 255, 255);
+    box-shadow: none;
+  }
+
+  .lightModeBody {
+    background-color: white;
+    color: black;
+  }
+
+  .darkModeBody {
+    background-color: rgb(22, 22, 22);
+
+  }
+
+
+  .lightModeContainer {
+    background-color: hsl(193, 100%, 96%);
+  }
+
+  .darkModeContainer {
+    background-color: hsl(192, 80%, 16%);
+  }
 }
+
