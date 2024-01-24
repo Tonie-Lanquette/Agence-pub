@@ -1,4 +1,3 @@
-
 function changeTheme() {
   let darkMode = document.querySelectorAll(".lightMode");
   darkMode.forEach((element) => {
@@ -18,5 +17,10 @@ function changeTheme() {
   let darkModeH2 = document.querySelectorAll(".lightModeH2");
   darkModeH2.forEach((element) => {
     element.classList.toggle("darkModeH2");
+  });
+
+  let darkHomePage = document.querySelectorAll(".lightHomePage");
+  darkHomePage.forEach((element) => {
+    element.classList.toggle("darkHomePage");
   });
 }

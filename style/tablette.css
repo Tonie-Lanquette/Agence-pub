@@ -37,18 +37,26 @@
     width: auto;
   }
 
-  .changeTheme {
-    font-size: 10px;
+  /* boutton theme */
 
+  .changeTheme {
+    padding: 15px 3vw;
     width: fit-content;
     font-weight: 600;
-    background-color: rgb(255, 255, 255);
     box-shadow: 0px 5px 10px lightgrey;
-    border-radius: 25px;
-    color: black;
-    border: none;
-    margin: 0 5%;
+    border-radius: 40px;
+    margin-inline-end: 1vw;
   }
+
+  .changeTheme:hover {
+    cursor: pointer;
+  }
+
+  .bouttonHeader {
+    display: flex;
+    flex-direction: row;
+  }
+
   /*bouton*/
 
   .aBlack {
@@ -56,11 +64,11 @@
   }
 
   .buttonTry {
-    padding: 15px 50px;
+    padding: 15px 3vw;
     width: fit-content;
     font-weight: 600;
     box-shadow: 0px 5px 10px lightgrey;
-    border-radius: 25px;
+    border-radius: 40px;
   }
 
   .textBoutonHaut {
@@ -127,7 +135,7 @@
   /* CONTAINER x3 */
 
   .blocks {
-    padding: 200px 5%;
+    padding: 100px 5%;
   }
 
   .rectangle {
@@ -301,5 +309,13 @@
 
   .darkModeContainer {
     background-color: hsl(192, 80%, 16%);
+  }
+
+  .lightHomePage {
+    color: black;
+  }
+
+  .darkHomePage {
+    color: white;
   }
 }
