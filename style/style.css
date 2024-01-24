@@ -50,6 +50,7 @@
     border: none;
     margin: 0 5%;
   }
+
   /*bouton*/
 
   .aBlack {
@@ -287,4 +288,3 @@
     background-color: hsl(192, 80%, 16%);
   }
 }
-
