@@ -1,27 +1,19 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
   body {
     margin: 0;
     font-family: "Open Sans", sans-serif;
-
     font-size: 18px;
     font-weight: 400;
   }
 
-  .fonfB {
-    background-color: rgb(0, 0, 0);
-    color: rgb(250, 246, 246);
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
   }
 
   h2 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-  }
-
-  h1 {
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-    text-align: center;
-    line-height: 35px;
   }
 
   /* HEADER */
@@ -30,11 +22,18 @@
     justify-content: space-between;
     padding: 15px 5% 15px 5%;
     align-items: center;
+    flex-wrap: wrap;
   }
 
   .logoHaut {
     padding: 5px 0px;
-    height: 15px;
+    height: 30px;
+    width: auto;
+  }
+
+  .bJn {
+    cursor: pointer;
+    height: 30px;
     width: auto;
   }
 
@@ -50,22 +49,18 @@
     border: none;
     margin: 0 5%;
   }
-
-  /*bouton */
+  /*bouton*/
 
   .aBlack {
     text-decoration: none;
   }
 
   .buttonTry {
-    font-size: 10px;
-    padding: 7px 30px;
+    padding: 15px 50px;
     width: fit-content;
     font-weight: 600;
-    background-color: rgb(255, 255, 255);
     box-shadow: 0px 5px 10px lightgrey;
     border-radius: 25px;
-    color: black;
   }
 
   .textBoutonHaut {
@@ -74,19 +69,23 @@
 
   /*HOME PAGE*/
   .container {
-    background-image: url(../media/bg_hero_mobile.svg);
+    background-image: url(../media/bg_hero_desktop.svg);
+    background-size: cover;
     margin: -130px 0 0 0;
     display: flex;
-    flex-direction: column;
-    padding: 5px 10%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px 5%;
     background-color: hsl(193, 100%, 96%);
     height: 800px;
   }
 
   .presentation {
+    width: 50%;
     margin-top: 180px;
     text-align: center;
-    line-height: 20px;
+    line-height: 50px;
     font-weight: 400;
   }
 
@@ -98,14 +97,14 @@
 
   /*boutton*/
   .get {
-    padding: 8px 0px;
-    width: 80%;
-    font-size: 12px;
+    margin: 0 10%;
+    padding: 15px 55px;
+    width: fit-content;
+    font-size: 13px;
     font-weight: 600;
     background-color: RGB(254, 82, 192);
-    border-radius: 25px;
+    border-radius: 50px;
     color: white;
-    margin: 0px 10%;
   }
 
   .get:hover {
@@ -113,68 +112,61 @@
   }
 
   .aWhite {
-    margin: 20px 40%;
+    margin: 10px;
     text-decoration: none;
     color: rgb(255, 255, 255);
   }
 
   .imgGH {
-    margin: 0 10%;
+    margin: 200px 0px;
     height: auto;
-    width: 80%;
-    margin-top: 17px;
+    width: 50%;
+    object-fit: contain;
   }
 
   /* CONTAINER x3 */
 
   .blocks {
-    padding: 0px 5% 100px 5%;
+    padding: 200px 5%;
   }
 
   .rectangle {
-    text-align: center;
-    width: 90%;
-    background-color: white;
     display: flex;
-    flex-direction: column-reverse;
+
     border-radius: 30px;
-    height: 600px;
-    justify-content: space-around;
+    height: 420px;
+    justify-content: space-between;
     align-items: center;
-    margin: 50px 0%;
-    padding: 0 5%;
+    margin: 100px 0%;
+    padding: 0 8%;
     box-shadow: 0px 10px 15px rgba(0, 37, 46, 0.15);
   }
 
   .rectangleReverse {
-    text-align: center;
-    width: 90%;
     display: flex;
-    flex-direction: column;
-    width: 90%;
-    margin: 5px 5%;
-    padding: 20px 0% 20px 0%;
-    background-color: white;
-    display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row-reverse;
     border-radius: 30px;
-    height: 600px;
-    justify-content: space-around;
+    height: 420px;
+    justify-content: space-between;
     align-items: center;
-    margin: 50px 0%;
-    padding: 0 5%;
+    margin: 100px 0%;
+    padding: 0 8%;
     box-shadow: 0px 10px 15px rgba(0, 37, 46, 0.15);
   }
 
   .imgRect {
-    padding: 20px 5%;
     height: auto;
-    width: 80vw;
+    width: 50%;
+    object-fit: contain;
   }
 
   .text {
-    color: gray;
-    font-size: 15px;
+    margin: 0 5px;
+    padding: 5px;
+  }
+
+  .textr {
+    padding-left: 10%;
   }
 
   .cadreBas {
@@ -188,7 +180,7 @@
     height: 150px;
     align-items: center;
     text-align: center;
-    margin: 0px 5%;
+    margin: 0px 20% 50px 20%;
     padding: 30px 5% 0px 5%;
     box-shadow: 0px 10px 15px rgb(0, 37, 46, 0.25);
   }
@@ -215,7 +207,7 @@
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     color: #ffff;
-    margin: -80px 0px;
+    margin: -150px 0px;
   }
 
   .logoFooter {
@@ -224,10 +216,9 @@
 
   .informations {
     display: flex;
-    flex-direction: column;
-    width: 90%;
-    margin: 5px 5%;
-    padding: 20px 0% 20px 0%;
+    width: 80%;
+    padding: 20px 5% 20px 5%;
+    justify-content: space-between;
   }
 
   .contactBlock {
@@ -244,8 +235,6 @@
 
   ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
   }
 
   .liens {
@@ -253,8 +242,7 @@
   }
 
   li {
-    margin: 0;
-    padding: 25px 0 0 0;
+    padding-bottom: 25px;
   }
 
   .styleLinkFooter {
@@ -264,10 +252,6 @@
 
   .styleLinkFooter:hover {
     text-decoration: underline;
-  }
-
-  .socialMedias {
-    text-align: center;
   }
 
   .socialMediasIcons {
@@ -284,10 +268,9 @@
 
   .copyright {
     font-size: 10px;
-    text-align: center;
+    text-align: end;
     padding-bottom: 50px;
-    font-size: 12px;
-    /* width: 100%; */
+    padding-right: 5%;
   }
 
   /* Classes changement de theme */
@@ -318,13 +301,5 @@
 
   .darkModeContainer {
     background-color: hsl(192, 80%, 16%);
-  }
-
-  .lightModeH2 {
-    color: black;
-  }
-
-  .darkModeH2 {
-    color: rgb(255, 255, 255);
   }
 }
