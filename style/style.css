@@ -1,11 +1,10 @@
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1280px) {
   body {
     margin: 0;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-weight: 400;
   }
-
 
   h1 {
     font-family: "Poppins", sans-serif;
@@ -62,9 +61,7 @@
     font-weight: 600;
     box-shadow: 0px 5px 10px lightgrey;
     border-radius: 25px;
-
   }
-
 
   .textBoutonHaut {
     margin: 0;
@@ -80,7 +77,6 @@
     flex-wrap: wrap;
     padding: 5px 5%;
     height: 100vh;
-
   }
 
   .presentation {
@@ -111,8 +107,9 @@
 
   .imgGH {
     margin: 200px 0px;
-    height: 400px;
-    width: auto;
+    height: auto;
+    width: 55%;
+    object-fit: contain;
   }
 
   /* CONTAINER x3 */
@@ -144,13 +141,17 @@
     box-shadow: 0px 10px 15px rgba(0, 37, 46, 0.15);
   }
 
+  .textr {
+    padding-left: 15%;
+  }
+
   .imgRect {
     height: 350px;
     width: auto;
   }
 
   .text {
-    width: 35%;
+    width: 80%;
   }
 
   .cadreBas {
@@ -254,7 +255,6 @@
     padding-right: 5%;
   }
 
-
   /* Classes changement de theme */
 
   .lightMode {
@@ -275,9 +275,7 @@
 
   .darkModeBody {
     background-color: rgb(22, 22, 22);
-
   }
-
 
   .lightModeContainer {
     background-color: hsl(193, 100%, 96%);
@@ -287,4 +285,3 @@
     background-color: hsl(192, 80%, 16%);
   }
 }
-
