@@ -5,34 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/responsive.css" />
+    <link rel="stylesheet" href="./style/tablette.css" />
+    <!-- lien rajoute -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style/style.css" />
-    <link rel="stylesheet" href="./style/responsive.css" />
-    <link rel="stylesheet" href="./style/tablette.css" />
-    <script
-      src="https://kit.fontawesome.com/91edd70f05.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Hubble</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap"
-      rel="stylesheet"
-    />
+    <!-- script -->
+    <script
+      src="https://kit.fontawesome.com/91edd70f05.js"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://kit.fontawesome.com/baf950d5f0.js"
       crossorigin="anonymous"
     ></script>
+    <!-- seo -->
+    <title>Hubble</title>
+    <meta
+      name="description"
+      content="Huddle re-imagines the way we bluild communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion."
+    />
   </head>
 
   <body class="lightModeBody">
@@ -63,7 +70,12 @@
             but so does your audience. Create connections with your users as you
             engage in genuine discussion.
           </p>
-          <a href="htpps://www.huddle.com/tryitfree" class="aWhite">
+          <a
+            href="htpps://www.huddle.com/tryitfree"
+            onclick="togglePopup(event)"
+            class="aWhite"
+            id="noLien"
+          >
             <p class="get">Get Started For Free</p>
           </a>
         </div>
@@ -230,6 +242,17 @@
       </div>
       <p class="copyright">Copyrigh 2018 Huddle. All rights reserved.</p>
     </footer>
+    <div id="popupOverlay" class="open" onclick="togglePopup(event)">
+      <div class="popupcontent >
+        <h2 class="h2pop">Hello</h2>
+        <p class="ppop">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae
+          tempora aliquam ea reiciendis repellendus, cum id omnis corrupti
+          assumenda fuga.
+        </p>
+        <a href="#" class="popupExit">close</a>
+      </div>
+    </div>
     <script src="./js/script.js"></script>
   </body>
   <link
