@@ -1,3 +1,5 @@
+// Changement de thème
+
 function changeTheme() {
   let darkMode = document.querySelectorAll(".lightMode");
   darkMode.forEach((element) => {
@@ -23,12 +25,18 @@ function changeTheme() {
   darkHomePage.forEach((element) => {
     element.classList.toggle("darkHomePage");
   });
+  let darkPopupcontent = document.querySelectorAll(".popupcontent");
+  darkPopupcontent.forEach((element) => {
+    element.classList.toggle("darkPopupcontent");
+  });
 }
 
-//popup
+//pop-up
+
 function togglePopup(event) {
   event.preventDefault();
   let popup = document.querySelector("#popupOverlay");
+
   popup.classList.toggle("open");
 }
 //pour annulé un lien
@@ -36,4 +44,6 @@ function togglePopup(event) {
 //   event.preventDefault();
 //   //jouer la fonction
 //   togglePopup();
+// commentaire
+
 // });

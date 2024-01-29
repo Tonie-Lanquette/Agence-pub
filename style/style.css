@@ -69,7 +69,6 @@
     font-weight: 600;
     box-shadow: 0px 5px 10px lightgrey;
     border-radius: 40px;
-
   }
 
   .textBoutonHaut {
@@ -266,15 +265,20 @@
 
   /* Classes changement de theme */
 
-  .lightMode {
-    background-color: white;
+  .lightHomePage {
     color: black;
   }
 
-  .darkMode {
-    background-color: rgb(41, 41, 41);
-    color: rgb(255, 255, 255);
-    box-shadow: none;
+  .darkHomePage {
+    color: white;
+  }
+
+  .lightModeContainer {
+    background-color: hsl(193, 100%, 96%);
+  }
+
+  .darkModeContainer {
+    background-color: hsl(192, 80%, 16%);
   }
 
   .lightModeBody {
@@ -286,19 +290,75 @@
     background-color: rgb(22, 22, 22);
   }
 
-  .lightModeContainer {
-    background-color: hsl(193, 100%, 96%);
-  }
-
-  .darkModeContainer {
-    background-color: hsl(192, 80%, 16%);
-  }
-
-  .lightHomePage {
+  .lightMode {
+    background-color: white;
     color: black;
   }
 
-  .darkHomePage {
+  .darkMode {
+    background-color: rgb(41, 41, 41);
+    color: rgb(255, 255, 255);
+    box-shadow: none;
+  }
+
+  .lightModeH2 {
+    color: black;
+  }
+
+  .darkModeH2 {
+    color: rgb(255, 255, 255);
+  }
+
+
+
+  /*fenetre popup*/
+  #popupOverlay {
+    position: fixed;
+    padding: 16%;
+    z-index: 80;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popupcontent {
+    background-image: url(../media/bg_hero_desktop.svg);
+    background-color: white;
+    background-size: cover;
+    width: 56%;
+    height: fit-content;
+    padding: 30px;
+    border: 8px solid RGB(254, 82, 192);
+    border-radius: 5px;
+    box-sizing: border-box;
+    transform: translate(-70%, 75%);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .darkPopupcontent {
+    background-image: url(../media/bg_hero_desktop.svg);
+    background-color: hsl(192, 80%, 16%);
+    background-size: cover;
     color: white;
   }
+
+  .popupExit {
+    position: absolute;
+    top: -10%;
+    right: 0;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    border: 5px;
+  }
+}
+
+#popupOverlay.open {
+  display: none !important;
 }
