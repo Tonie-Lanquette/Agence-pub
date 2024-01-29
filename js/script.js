@@ -24,3 +24,16 @@ function changeTheme() {
     element.classList.toggle("darkHomePage");
   });
 }
+
+//popup
+function togglePopup(event) {
+  event.preventDefault();
+  let popup = document.querySelector("#popupOverlay");
+  popup.classList.toggle("open");
+}
+//pour annulé un lien
+// document.getElementById("noLien").addEventListener("click", function (event) {
+//   event.preventDefault();
+//   //jouer la fonction
+//   togglePopup();
+// });
