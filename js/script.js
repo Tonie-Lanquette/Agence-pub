@@ -31,7 +31,7 @@ function changeTheme() {
   });
 }
 
-//popup
+//pop-up
 
 function togglePopup(event) {
   event.preventDefault();
@@ -44,4 +44,6 @@ function togglePopup(event) {
 //   event.preventDefault();
 //   //jouer la fonction
 //   togglePopup();
+// commentaire
+
 // });
